@@ -3,11 +3,34 @@
     padding: 0px;
 }
 .menubar{
-    background-color: gray;
-    height: 80px;
+    background-color: rgb(58, 57, 57);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    list-style: none;
+    color: white;
 }
 .logo_img{
     width: 200px;
     padding: 10px;
+    margin: none;
+}
+.menu{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.dec{
+    text-decoration: none;
     margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: right;
+    cursor: pointer;
+}
+.dec:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
 }
