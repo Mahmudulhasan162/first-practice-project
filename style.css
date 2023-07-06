@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menubar{
+    background-color: gray;
+    height: 80px;
+}
+.logo_img{
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+}
