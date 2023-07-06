@@ -34,3 +34,25 @@
     color: black;
     border-radius: 5px;
 }
+.bnimg{
+    width: 300px;
+}
+.banner_main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    /* margin: 20px; */
+    /* border: 1px solid black; */
+    height: 100vh;
+    background-color: black;
+}
+h1{
+    font-size: 36px;
+    color: white;
+
+}
+p{
+    margin: 20px;
+    color: white;
+}
