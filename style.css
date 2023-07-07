@@ -68,7 +68,7 @@ p{
     color: white;
     cursor: pointer;
 }
-.service{
+.aboutus{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -95,8 +95,64 @@ p{
     color: black;
     margin: none;
 }
-.service_text{
+.aboutus_text{
     border: 5px solid black;
     padding: 10px;
     border-radius: 15px;
+}
+.box{
+    background-color: black;
+    width: 180px;
+    height: 270px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px gray;
+
+}
+.boxicon{
+    width: 70px;
+    padding: 10px;
+}
+.services{
+    background-image: url("/images/background.png"),linear-gradient(45deg,rgb(26, 26, 26),rgb(8, 8, 8));
+    background-color: black;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.boxtext{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+.boxbtn{
+    background-color: grey;
+    color: black;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.boxbtn:hover{
+    background-color: #fff;
+
+}
+.foottext{
+    background-color: black;
+    color: white;
+    /* font-weight: bold; */
+    padding: 10px;
+    font-size: 12px;
+}
+
+.sesh{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    height: 200px
 }
